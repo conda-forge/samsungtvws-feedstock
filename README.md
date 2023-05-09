@@ -1,11 +1,11 @@
-About samsungtvws
-=================
+About samsungtvws-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/samsungtvws-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xchwarze/samsung-tv-ws-api
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/samsungtvws-feedstock/blob/main/LICENSE.txt)
 
 Summary: Samsung Smart TV WS API wrapper
 
