@@ -11,15 +11,15 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - websocket-client >=0.57.0
     - requests >=2.21.0
 
@@ -28,6 +28,7 @@ test:
     - samsungtvws
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
