@@ -40,7 +40,7 @@ about:
     It currently supports modern (post-2016) TVs with Ethernet or Wi-Fi connectivity. They should be all models with TizenOs.
     Based on https://github.com/marysieek/samsung-tv-api work.
   license: LGPL-3.0
-  license_family: LGPL-3.0
+  license_family: LGPL
   license_file: LICENSE
 
 extra:
