@@ -9,8 +9,9 @@ Package license: LGPL-3.0
 
 Summary: Samsung Smart TV WS API wrapper
 
-This project is a Python library for remotely controlling Samsung televisions via a TCP/IP connection.
-It supports modern (post-2016) Samsung Smart TVs running **Tizen OS**, connected via Ethernet or Wi-Fi.
+This project is a library for remote controlling Samsung televisions via a TCP/IP connection.
+It currently supports modern (post-2016) TVs with Ethernet or Wi-Fi connectivity. They should be all models with TizenOs.
+Based on https://github.com/marysieek/samsung-tv-api work.
 
 
 Current build status
