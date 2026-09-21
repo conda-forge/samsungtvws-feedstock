@@ -1,13 +1,13 @@
 {% set name = "samsungtvws" %}
-{% set version = "3.0.4" %}
+{% set version = "3.0.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f2f14f7beee118812d8440d1d21bf4dd143ca15f69dcea52f91a7a9d9a7d9c7e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 166111d8370443cd2021b74cdfac9495896dfc41e3a87ea023289f24f922bb91
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
